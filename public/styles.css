@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #282c34;
+    color: #ffffff;
+}
+
+#username-container, #chat-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #3a3f47;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+#messages {
+    list-style-type: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #444b54;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#messages li {
+    margin-bottom: 10px;
+    background-color: #586069;
+    padding: 10px;
+    border-radius: 5px;
+}
